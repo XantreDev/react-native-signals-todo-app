@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@react-native-community/checkbox':
+    specifier: ^0.5.16
+    version: 0.5.16(react-native@0.73.1)(react@18.2.0)
   expo:
     specifier: 50.0.0-preview.7
     version: 50.0.0-preview.7(@babel/core@7.23.6)(@react-native/babel-preset@0.74.0)
@@ -2073,6 +2076,20 @@ packages:
     engines: {node: '>=14'}
     requiresBuild: true
     optional: true
+
+  /@react-native-community/checkbox@0.5.16(react-native@0.73.1)(react@18.2.0):
+    resolution: {integrity: sha512-j4fmWe77EAayGnKJ52BljlN8apLT3xjxG/pJOA6HZ4ew63FiXmnY7VtxTzmvDKgSPrETdQc2lmx5mdXTAufJnw==}
+    peerDependencies:
+      react: '*'
+      react-native: '>= 0.62'
+      react-native-windows: '>=0.62'
+    peerDependenciesMeta:
+      react-native-windows:
+        optional: true
+    dependencies:
+      react: 18.2.0
+      react-native: 0.73.1(@babel/core@7.23.6)(@babel/preset-env@7.23.6)(react@18.2.0)
+    dev: false
 
   /@react-native-community/cli-clean@12.3.0:
     resolution: {integrity: sha512-iAgLCOWYRGh9ukr+eVQnhkV/OqN3V2EGd/in33Ggn/Mj4uO6+oUncXFwB+yjlyaUNz6FfjudhIz09yYGSF+9sg==}
