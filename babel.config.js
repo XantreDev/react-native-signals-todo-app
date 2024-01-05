@@ -5,5 +5,6 @@ module.exports = function (api) {
       ["babel-preset-expo", { jsxImportSource: "nativewind" }],
       "nativewind/babel",
     ],
+    plugins: ['module:@preact-signals/safe-react/babel']
   };
 };
